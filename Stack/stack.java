@@ -8,5 +8,11 @@ public class stack{
         System.out.println(st);
         st.pop();
         System.out.println(st);
+        System.out.println(st.size());
+        System.out.println(st.isEmpty());
+        System.out.println();
+        int top = st.peek();
+        System.out.println(top);
+        System.out.println(st.search(30));
     }
 }
